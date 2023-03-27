@@ -1,6 +1,18 @@
 ## Projeto CRUD de cliente
 Este projeto pode ser executado com o comando:
 
+Configuração de ambiente:
+
+Criar ambiente virtual:
+
+> virtualenv -p 3 venv
+
+Instalar dependências:
+
+> pip install  -r requirements.txt
+
+Colocar o servidor no ar:
+
 > uvicorn main.app:app --reload
 
 Abaixo segue uma collection do postman para executar o código:
